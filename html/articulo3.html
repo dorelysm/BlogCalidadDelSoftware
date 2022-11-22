@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del articulo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <img src="../img/logo_unilibre.png" alt="Logo">
+            </div>
+            <div class="titulo">
+                <h2 class="text-center">Calidad de software</h1>
+            </div>
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#indice">Blog</a>
+                <a href="sobre.html">Sobre este blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTICULO -->
+
+    <article>
+        <div class="container py-5">
+            <h4>Fiabilidad de software</h4>
+            <p>La Fiabilidad del software, a diferencia de otros
+                factores de calidad, puede ser medida o
+                estimada mediante datos históricos o de
+                desarrollo.</p>
+            <p>La Fiabilidad del software, se define en términos
+                estadísticos como “la probabilidad de operación
+                libre de fallo de un programa de computadora en
+                un entorno determinado y durante un tiempo
+                específico”.</p>
+            <p>Siempre que se habla de Fiabilidad del software,
+                surge la pregunta fundamental: ¿Qué se entiende
+                por el término fallo?</p>
+            <p>En el contexto de cualquier discusión sobre
+                calidad y fiabilidad del software, el fallo es
+                cualquier falta de concordancia con los requisitos
+                del software.</p>
+            <p>Incluso en la definición dada existen grados. Los
+                fallos pueden ser simplemente desconcertantes o ser
+                catastróficos.</p>
+            <p>Puede que un fallo sea corregido en segundo
+                mientras que otro lleve semanas o incluso meses.</p>
+            <p>Para complicar más las cosas, la corrección de un
+                fallo puede llevar a la introducción de otros errores
+                que, finalmente, lleven a más fallos.</p>
+            <h5>Medidas de fiabilidad y de disponibilidad</h5>
+            <p>Los primeros trabajos sobre fiabilidad intentaron
+                extrapolar las matemáticas de la teoría de fiabilidad
+                del hardware.</p>
+            <p>La mayoría de los modelos de fiabilidad relativos al
+                hardware van más orientados a los fallo debidos al
+                desajuste que a los fallos debidos a defectos de
+                diseño.
+            </p>
+            <p>En el hardware, son más probables los fallos debidos
+                al desgaste físico que los fallos relativos al diseño.</p>
+            <p>Con lo que respecta a los fallos del software, lo que
+                ocurre es lo contrario.</p>
+            <p>De hecho, todos los fallos del software, se producen
+                por problemas de diseño o de implementación; el
+                desajuste no entra en este panorama.
+            </p>
+            <p> Todavía se debate sobre la relación entre los
+                conceptos clave de fiabilidad del hardware y su
+                aplicabilidad al software.</p>
+            <p>Considerando un sistema basado en computadora,
+                una sencilla medida de la fiabilidad es el tiempo
+                medio entre fallos (TMEF), donde:
+            </p>
+            <p><i>TMEF = TMDF + TMDR</i></p>
+            <p>Las siglas TMDF y TMDR corresponden a tiempo
+                medio de fallo y tiempo medio de reparación,
+                respectivamente.</p>
+            <h6>¿Por qué es TMEF una métrica más útil que
+                errores/ LDC?
+            </h6>
+            <p>Muchos investigadores argumentan que el TMDF es,
+                una medida más útil que los defectos /KLDC o
+                defectos/PF. Sencillamente, el usuario final se
+                enfrenta a los fallos, no al número total de errores. <br>
+                Como cada error de un programa no tiene la misma
+                tasa de fallo, la cuenta total de errores no es una
+                buena indicación de la fiabilidad de un sistema.</p>
+            <p>Además de una medida de la fiabilidad, debemos
+                obtener una medida de la disponibilidad.</p>
+            <p>La disponibilidad del software es la probabilidad de
+                que un programa funcione de acuerdo con los
+                requisitos en un momento dado, y se define como:
+            </p>
+            <p>Disponibilidad = <i>[TMDF/(TMDF + TMDR)]*100%</i></p>
+            <p>La medida de fiabilidad TMEF es igualmente sensible
+                al TMDE que al TMDR. </p>
+            <p>La medida de disponibilidad es algo más sensible al
+                TMDR, una medida indirecta de la facilidad de
+                mantenimiento del software.</p>
+            <h6><b>Seguridad del software</b></h6>
+            <p>Es una actividad de garantía de calidad del software
+                que se centra en la identificación y evaluación de los
+                riesgos potenciales que pueden producir un impacto
+                negativo en el software y hacer que falle el sistema
+                completo. <br>
+                Si se pueden identificar pronto los riesgos en el
+                proceso de ingeniería del software podrán
+                especificarse las características del diseño del
+                software que permitan eliminar o controlar los riesgos
+                potenciales. <br>
+                Como parte de la seguridad del software, se puede
+                dirigir un proceso de análisis y modelado.
+                Inicialmente, se identifican los riesgos y se clasifican
+                por su importancia y su grado de riesgo.
+            </p>
+            <h6><b>Ejemplo de seguridad del software</b></h6>
+            <p>Por ejemplo, algunos de los riesgos asociados con el control
+                basado en computadora del sistema de conducción de un
+                automóvil podrían ser:</p>
+            <ul>
+                <li>Produce una aceleración incontrolada que no se puede detener</li>
+                <li>No responde a la presión del pedal del freno (deteniéndose)
+                </li>
+                <li>No responde cuando se activa el contacto
+                </li>
+                <li>Pierde o gana velocidad lentamente</li>
+            </ul>
+            <p>Cuando se han identificado estos riesgos del sistema, se
+                utilizan técnicas de análisis para asignar su gravedad y su
+                probabilidad de ocurrencia. <br>
+                Para que sea efectivo, se tiene que analizar el software en el
+                contexto del sistema completo.</p>
+            <p>Se pueden usar técnicas de análisis, como el análisis del
+                árbol de fallos, la lógica del tiempo real o los modelos de
+                redes de Petri, para predecir la cadena de sucesos que
+                pueden producir los riesgos y la probabilidad de que se dé
+                cada uno de los sucesos que componen la cadena.</p>
+            <p>Una vez que se han identificado y analizado los riesgos, se
+                pueden especificar los requisitos relacionados con la
+                seguridad para el software.</p>
+            <p>Esto es, la especificación puede contener una lista de
+                eventos no deseables y las respuestas del sistema a estos
+                eventos. El papel del software en la gestión de eventos no
+                deseados es entonces apropiado.</p>
+            <h5>Diferencia entre fiabilidad y seguridad del software</h5>
+            <ul>
+                <li>Aunque la fiabilidad y la seguridad del software están
+                    bastante relacionadas es importante entender la sutil
+                    diferencia que existe entre ellas.
+                </li>
+                <li>La fiabilidad del software utiliza el análisis estadístico
+                    para determinar la probabilidad de que pueda ocurrir un
+                    fallo del software.</li>
+                <li>Sin embargo, la ocurrencia de un fallo no lleva
+                    necesariamente a un riesgo o a un accidente. </li>
+                <li>La seguridad del software examina los modos según los
+                    cuales los fallos producen condiciones que pueden
+                    llevar a accidentes.
+                </li>
+                <li>Es decir, los fallos no se consideran en vacío, sino que
+                    se evalúan en el contexto de un completo sistema
+                    basado en computadora.</li>
+            </ul>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="top-footer">
+            <p>Este blog fue creado como proyecto final de la materia de Ingeniería del software 3</p>
+        </div>
+        <div class="bottom-footer">
+            <p>&copy; Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

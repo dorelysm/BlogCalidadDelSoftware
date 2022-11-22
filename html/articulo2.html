@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del articulo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <img src="../img/logo_unilibre.png" alt="Logo">
+            </div>
+            <div class="titulo">
+                <h2 class="text-center">Calidad de software</h1>
+            </div>
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#indice">Blog</a>
+                <a href="sobre.html">Sobre este blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTICULO -->
+
+    <article>
+        <div class="container py-5">
+            <h4>Garantía de la calidad estadística</h4>
+            <p>La garantía de la calidad estadística refleja una tendencia, creciente en toda la industria, a establecer
+                calidad más cuantitativamente.</p>
+            <p>Para el software, la garantía de calidad estadística
+                implica los siguientes pasos:</p>
+            <ol>
+                <li>Se agrupa y se clasifica la información sobre los defectos del
+                    software.</li>
+                <li>Se intenta encontrar la causa subyacente de cada defecto (por ejemplo., no concordancia con la
+                    especificación, error de
+                    diseño, incumplimiento de los estándares, pobre
+                    comunicación con el cliente).</li>
+                <li>Mediante el principio de Pareto (el 80 por ciento de los
+                    defectos se pueden encontrar en el 20 por ciento de todas las
+                    posibles causas), se aísla el 20 por ciento (los “pocos
+                    vitales”).
+                </li>
+                <li>4. Una vez que se han identificado los defectos vitales, se actúa
+                    para corregir los problemas que han producido los defectos.</li>
+            </ol>
+            <p>Este concepto relativamente sencillo representa un
+                paso importante hacia la creación de un proceso de
+                ingeniería de software adaptativo en el cual se realizan
+                cambios para mejorar aquellos elementos del proceso
+                que introducen errores.</p>
+            <h5>Ejemplo de garantía de la calidad estadística</h5>
+            <p>Para ilustrar el proceso, supongamos que una
+                organización de desarrollo de software recoge
+                información sobre defectos durante un período de un
+                años. <br>
+                Algunos de los defectos se descubren mientras se
+                desarrolla el software. <br>
+                Otros se encuentran después de que el software se
+                haya distribuido al usuario final.
+            </p>
+            <p>Aunque se descubren cientos de errores diferentes, todos se
+                pueden encontrar en una (o más de las siguientes causas):</p>
+            <ul>
+                <li>Especificación incompleta o errónea (EIE)</li>
+                <li>Mala interpretación de la comunicación del clientes (MCC)</li>
+                <li>Desviación deliberada de la especificación (DDE)</li>
+                <li>Incumplimiento de los estándares de programación (IEP)</li>
+                <li>Error en la representación de los datos (ERD)</li>
+                <li>Interfaz de módulo inconsistente (IMI)</li>
+                <li>Error en la lógica del diseño (ELD)</li>
+                <li>Prueba incompleta o errónea (PIE)</li>
+                <li>Documentación imprecisa o incompleta (DII)</li>
+                <li>Error en la traducción del diseño al lenguaje de programación (TLP)</li>
+                <li>Interfaz hombre-máquina ambigua o inconsistente (IHM)</li>
+                <li>Varios (VAR)</li>
+            </ul>
+            <p>Para aplicar SQA estadística se construye la siguiente
+                tabla.
+            </p>
+            <p>La tabla indica que EIE, MCC y ERD son las causas vitales
+                que contabilizan el 53% de todos los errores. <br>
+                Sin embargo, debe observarse que si sólo se consideraran
+                errores serios, se seleccionarían las siguientes causas
+                vitales: EIE, ERD, TLP y ELD. <br>
+                Una vez determinadas las causas vitales, la organización
+                de desarrollo de software puede comenzar la acción
+                correctiva.</p>
+            <img src="../img/tabla_ejemplo.PNG" alt="">
+            <p></p>
+            <p>Cómo lo haría:</p>
+            <p>Para corregir la MCC, el equipo de desarrollo de software
+                podría implementar técnicas que facilitaran la especificación
+                de la aplicación para mejorar la calidad de la especificación
+                y la comunicación con el cliente. <br>
+                Para mejorar el ERD, el equipo de desarrollo del software
+                podría adquirir herramientas CASE para la modelización de
+                datos y realizar revisiones del diseño de datos más
+                rigurosas.</p>
+            <p>Es importante destacar que la acción correctiva se
+                centra principalmente en las causas vitales. Cuando
+                éstas son corregidas, nuevas candidatas saltan al
+                principio de la lista.</p>
+            <p><br><br> Se han mostrado las técnicas de garantía de calidad del
+                software estadísticas para proporcionar una mejora
+                sustancial en la calidad. <br>
+                En algunos casos, las organizaciones de software han
+                conseguido una reducción anual del 50% de los errores
+                después de la aplicación de estas técnicas.</p>
+            <p>Junto con la recopilación de información sobre
+                defectos, los equipos de desarrollo del software pueden
+                calcular un índice de errores (IE) para cada etapa
+                principal del proceso de ingeniería de software. </p>
+            <p>Después del análisis, el diseño, la codificación, la prueba y
+                la entrega, se recopilan los siguientes datos:</p>
+            <ul>
+                <li>Ei = número total de defectos descubiertos durante la etapa i-ésima del
+                    proceso de ingeniería del software</li>
+                <li>Si = número de defectos graves</li>
+                <li>Mi = número de defectos moderados</li>
+                <li>Ti = número de defectos leves</li>
+                <li>PS = tamaño del producto (LDC, sentencias de diseño, páginas de
+                    documentación) en la etapa i-ésima.
+                </li>
+                <li>Ws, Wm, Wt = factores de peso de errores graves, moderados y leves, en
+                    donde los valoers recomendados son Ws = 10, Wm = 3 y Wt = 1.</li>
+            </ul>
+            <p>Los factores de peso de cada fase deberían agrandarse
+                a medida que el desarrollo evoluciona. Esto favorece a
+                la organización que encuentra los errores al principio.
+            </p>
+            <p>En cada etapa del proceso de ingeniería del software
+                se calcula un índice de fase, IFi:</p>
+            <p><i>IFi = Ws(Si/Ei) + Wm(Mi/Ei) + Wt(Ti/Ei)</i></p>
+            <p>El índice de errores (IE) se obtiene mediante el cálculo
+                del defecto acumulativo de cada IFi, asignando más
+                peso a los errores encontrados más tarde en el proceso
+                de ingeniería del software, que a los que se encuentran
+                en las primeras etapas:
+            </p>
+            <p><i>IE = ∑(i x IFi) / PS</i></p>
+            <p><i>(IF1 + 2IF2 + 3IF3 + …iIFi) / PS</i></p>
+            <p>Se puede utilizar el índice de errores (IE) junto con la
+                información recogida en la Tabla anterior, para
+                desarrollar una indicación global de la mejora en la
+                calidad del software.</p>
+            <p>La aplicación de la SQA estadística y el principio de
+                Pareto se pueden resumir en una sola frase: ¡Utilizar el
+                tiempo para centrarse en cosas que realmente
+                interesan, pero primero asegurarse que se entiende
+                qué es lo que realmente interesa!</p>
+            
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="top-footer">
+            <p>Este blog fue creado como proyecto final de la materia de Ingeniería del software 3</p>
+        </div>
+        <div class="bottom-footer">
+            <p>&copy; Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
